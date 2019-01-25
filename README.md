@@ -15,18 +15,38 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
 ## Uncategorized
 
   * [ROOT](https://root.cern/): If you're working in particle physics and you don't know about ROOT— you need to know about ROOT. It would fit into every category below.
+  * [rootpy](http://www.rootpy.org/)
+
+## Pure physics
+
+   * [particle](https://github.com/scikit-hep/particle)
+   * [decaylanguage](https://github.com/scikit-hep/decaylanguage)
 
 ## Data access
 
+   * [root_numpy](http://scikit-hep.org/root_numpy/)
+   * [root_pandas](https://github.com/scikit-hep/root_pandas)
+   * [uproot](https://github.com/scikit-hep/uproot)
+
 ## Distributed processing
 
-  * [Parsl](http://parsl-project.org/)
+   * [Parsl](http://parsl-project.org/)
+   * [Joblib](https://joblib.readthedocs.io/en/latest/)
+   * [Dask](http://dask.pydata.org)
 
-## Event manipulation
+## Event generation
+
+   * [numpythia](https://github.com/scikit-hep/numpythia)
+   * [pyjet](https://github.com/scikit-hep/pyjet)
+
+## Data processing
+
+   * [awkward-array](https://github.com/scikit-hep/awkward-array)
+   * [formulate](https://github.com/scikit-hep/formulate): translate TTree::Draw syntax to NumExpr
 
 ## Aggregation/histogram filling
 
-  * [Boost.Histogram](https://github.com/HDembinski/histogram)
+   * [Boost.Histogram](https://github.com/HDembinski/histogram)
 
 ## Data bookkeeping
 
@@ -34,8 +54,44 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
 
 ## Plotting (exploratory and publication)
 
+   * [Matplotlib](https://matplotlib.org/)
+   * [seaborn](https://seaborn.pydata.org/)
+
 ## Graphical modeling (generally 3D)
+
+## Fitting
+
+   * [iminuit](https://iminuit.readthedocs.io/en/latest/)
+   * [probfit](https://probfit.readthedocs.io/en/latest/)
+   * [pyhf](https://diana-hep.org/pyhf/)
+   * [zfit](https://github.com/zfit/zfit)
+
+## Statistics
+
+_(This will be a big section someday.)_
+
+## Reproducibility
+
+   * [reana](http://reanahub.io/)
 
 ## Publishing
 
-   * LaTeX (which link would be appropriate?)
+   * LaTeX (what link would be help users get started?)
+
+## Utilities (computational, not fitting a specific application above)
+
+### For C++
+
+   * [Thread Building Blocks (TBB)](https://www.threadingbuildingblocks.org/)
+
+### For Python
+
+   * [Numba](http://numba.pydata.org/)
+
+### Other languages or cross-language
+
+   * [pybind11](https://pybind11.readthedocs.io/en/stable/)
+
+## Collaboration-framework specific
+
+### ???
