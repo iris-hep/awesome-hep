@@ -27,12 +27,19 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
    * [root_numpy](http://scikit-hep.org/root_numpy/)
    * [root_pandas](https://github.com/scikit-hep/root_pandas)
    * [uproot](https://github.com/scikit-hep/uproot)
+   * [pyhepmc](https://pypi.org/project/pyhepmc/)
+   * [pylhe](https://pypi.org/project/pylhe/)
 
 ## Distributed processing
 
    * [Parsl](http://parsl-project.org/)
    * [Joblib](https://joblib.readthedocs.io/en/latest/)
    * [Dask](http://dask.pydata.org)
+   * [yadage](https://github.com/yadage/yadage)
+
+## Visualization
+   * [mcviz](https://github.com/mcviz/mcviz)
+   * [PySLHA](https://pypi.org/project/pyslha/)
 
 ## Event generation
 
@@ -43,10 +50,12 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
 
    * [awkward-array](https://github.com/scikit-hep/awkward-array)
    * [formulate](https://github.com/scikit-hep/formulate): translate TTree::Draw syntax to NumExpr
+   * [Rivet](https://rivet.hepforge.org)
 
 ## Aggregation/histogram filling
 
    * [Boost.Histogram](https://github.com/HDembinski/histogram)
+   * [YODA](https://yoda.hepforge.org/)
 
 ## Data bookkeeping
 
