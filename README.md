@@ -17,9 +17,21 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
   * [ROOT](https://root.cern/): If you're working in particle physics and you don't know about ROOT— you need to know about ROOT. It would fit into every category below.
   * [rootpy](http://www.rootpy.org/)
 
+## For Python
+
+   * [PyHEP-resources](https://github.com/hsf-training/PyHEP-resources): detailed list of Python tutorials and useful libraries in Python.
+
+## For C++
+
+   * [Thread Building Blocks (TBB)](https://www.threadingbuildingblocks.org/)
+
+## Other languages or cross-language
+
+   * [pybind11](https://pybind11.readthedocs.io/en/stable/)
+
 ## Pure physics
 
-   * [particle](https://github.com/scikit-hep/particle)
+   * [particle](https://github.com/scikit-hep/particle): particle data, such as masses and PDG properties
    * [decaylanguage](https://github.com/scikit-hep/decaylanguage)
 
 ## Data access
@@ -36,6 +48,7 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
    * [Joblib](https://joblib.readthedocs.io/en/latest/)
    * [Dask](http://dask.pydata.org)
    * [yadage](https://github.com/yadage/yadage)
+   * [Spark](http://spark.apache.org/)
 
 ## Visualization
    * [mcviz](https://github.com/mcviz/mcviz)
@@ -86,20 +99,6 @@ _(This will be a big section someday.)_
 ## Publishing
 
    * LaTeX (what link would be help users get started?)
-
-## Utilities (computational, not fitting a specific application above)
-
-### For C++
-
-   * [Thread Building Blocks (TBB)](https://www.threadingbuildingblocks.org/)
-
-### For Python
-
-   * [Numba](http://numba.pydata.org/)
-
-### Other languages or cross-language
-
-   * [pybind11](https://pybind11.readthedocs.io/en/stable/)
 
 ## Collaboration-framework specific
 
