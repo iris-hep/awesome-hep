@@ -42,6 +42,17 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
    * [pyhepmc](https://pypi.org/project/pyhepmc/)
    * [pylhe](https://pypi.org/project/pylhe/)
    * [PySLHA](https://pypi.org/project/pyslha/): read, write, and plot SUSY Les Houches Accord (SLHA) supersymmetric spectrum/decay files
+   * [Go-HEP/groot](https://go-hep.org/x/hep/groot): read, write ROOT files in pure-[Go](https://golang.org)
+   * [Go-HEP/hepevt](https://go-hep.org/x/hep/hepmc): provide read access to `HEPEVT` `F77` common blocks
+   * [Go-HEP/hepmc](https://go-hep.org/x/hep/hepmc): read, write HepMC files in pure-[Go](https://golang.org)
+   * [Go-HEP/heppdt](https://go-hep.org/x/hep/heppdt): provide read access to HepPDT data tables
+   * [Go-HEP/lcio](https://go-hep.org/x/hep/lcio): provide read/write access to the LCIO data model
+   * [Go-HEP/lhef](https://go-hep.org/x/hep/lhef): implement the "Les Houches Event File" data format
+   * [Go-HEP/slha](https://go-hep.org/x/hep/slha): implement encoding and decoding of SUSY Les Houches Accords (SLHA) data format
+   * [Go-HEP/xrootd](https://go-hep.org/x/hep/xrootd): implement the XRootD protocol
+   * [Go-HEP/hbook/yodacnv](https://go-hep.org/x/hep/hbook/yodacnv): implement read/write access to YODA files
+   
+   
 
 ## Distributed processing
 
@@ -55,16 +66,19 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
 
    * [numpythia](https://github.com/scikit-hep/numpythia)
    * [pyjet](https://github.com/scikit-hep/pyjet)
+   * [Go-HEP/fads](https://go-hep.org/x/hep/fads): `fads` exposes building blocks for a fast simulation of a HEP detector.
 
 ## Data processing
 
    * [awkward-array](https://github.com/scikit-hep/awkward-array)
    * [formulate](https://github.com/scikit-hep/formulate): translate TTree::Draw syntax to NumExpr
+   * [Go-HEP/fwk](https://go-hep.org/x/hep/fwk): `fwk` provides a set of tools to process High Energy Physics events data, in a multithread-friendly fashion
 
 ## Aggregation/histogram filling
 
    * [Boost.Histogram](https://github.com/HDembinski/histogram)
    * [YODA](https://yoda.hepforge.org/)
+   * [Go-HEP/hbook](https://go-hep.org/x/hep/hbook): hbook is a set of data analysis tools for HEP (histograms (1D, 2D, 3D), profiles and ntuples), with interoperability with ROOT (read/write) TH{1,2}x.
 
 ## Data bookkeeping
 
@@ -74,6 +88,9 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
 
    * [Matplotlib](https://matplotlib.org/)
    * [seaborn](https://seaborn.pydata.org/)
+   * [Go-HEP/hplot](https://go-hep.org/x/hep/hplot): a plotting package built on top of [Gonum/plot](https://github.com/gonum/plot) to provide HEP-oriented primitives
+   * [Go-HEP/pawgo](https://go-hep.org/x/hep/pawgo): a simple interactive shell to quickly plot hbook histograms from Go
+   * [Go-HEP/groot/root-srv](https://go-hep.org/x/hep/groot/cmd/root-srv): a (local) web server able to plot TH{1,2}x, TGraphs and TTrees from a ROOT file
 
 ## Other visualization
 
@@ -85,10 +102,16 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
    * [probfit](https://probfit.readthedocs.io/en/latest/)
    * [pyhf](https://diana-hep.org/pyhf/)
    * [zfit](https://github.com/zfit/zfit)
+   * [Gonum/optimize](https://godoc.org/gonum.org/v1/gonum/optimize): implements algorithms for finding the optimum value of functions
+   * [Go-HEP/fit](https://go-hep.org/x/hep/fit): `fit` provides functions to fit data (histograms, data set), using `gonum/optimize`.
 
 ## Statistics
 
 _(This will be a big section someday.)_
+
+   * [Gonum/stat](https://godoc.org/gonum.org/v1/gonum/stat): `stat` provides generalized statistical functions.
+   * [Gonum/stat/distuv](https://godoc.org/gonum.org/v1/gonum/stat/distuv): `distuv` provides univariate random distribution types.
+   * [Gonum/stat/distmv](https://godoc.org/gonum.org/v1/gonum/stat/distmv): `distmv` provides multivariate random distribution types.
 
 ## Machine learning
 
