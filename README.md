@@ -41,6 +41,7 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
    * [uproot](https://github.com/scikit-hep/uproot)
    * [pyhepmc](https://pypi.org/project/pyhepmc/)
    * [pylhe](https://pypi.org/project/pylhe/)
+   * [PySLHA](https://pypi.org/project/pyslha/): read, write, and plot SUSY Les Houches Accord (SLHA) supersymmetric spectrum/decay files
 
 ## Distributed processing
 
@@ -49,10 +50,6 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
    * [Dask](http://dask.pydata.org)
    * [yadage](https://github.com/yadage/yadage)
    * [Spark](http://spark.apache.org/)
-
-## Visualization
-   * [mcviz](https://github.com/mcviz/mcviz)
-   * [PySLHA](https://pypi.org/project/pyslha/)
 
 ## Event generation
 
@@ -63,7 +60,6 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
 
    * [awkward-array](https://github.com/scikit-hep/awkward-array)
    * [formulate](https://github.com/scikit-hep/formulate): translate TTree::Draw syntax to NumExpr
-   * [Rivet](https://rivet.hepforge.org)
 
 ## Aggregation/histogram filling
 
@@ -79,7 +75,9 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
    * [Matplotlib](https://matplotlib.org/)
    * [seaborn](https://seaborn.pydata.org/)
 
-## Graphical modeling (generally 3D)
+## Other visualization
+
+   * [mcviz](https://github.com/mcviz/mcviz)
 
 ## Fitting
 
@@ -92,9 +90,19 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
 
 _(This will be a big section someday.)_
 
-## Reproducibility
+## Machine learning
+
+   * [awesome machine learning](https://github.com/josephmisiti/awesome-machine-learning)
+
+## Reproducibility, reinterpretation
 
    * [reana](http://reanahub.io/)
+   * [Rivet](https://rivet.hepforge.org)
+
+## Data preservation
+
+   * [CERN Open Data Portal](http://opendata.cern.ch/)
+   * [HEPData](https://www.hepdata.net/)
 
 ## Publishing
 
