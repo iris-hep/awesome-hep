@@ -95,13 +95,18 @@ See the [curated list of awesome lists](https://github.com/sindresorhus/awesome)
 ## Other visualization
 
    * [mcviz](https://github.com/mcviz/mcviz)
+   
+## Minimization
+
+   * [iminuit](https://iminuit.readthedocs.io/en/latest/): A Cython powered wrapper around Minuit extracted from ROOT.
 
 ## Fitting
 
-   * [iminuit](https://iminuit.readthedocs.io/en/latest/)
-   * [probfit](https://probfit.readthedocs.io/en/latest/)
+   * [RooFit](http://roofit.sourceforge.net): The classic, powerful symbolic fitting library built into ROOT (and therefore PyROOT).
+   * [GooFit](https://github.com/GooFit/GooFit): A OpenMP/CUDA binned and unbinned fitting package for C++ and Python, similar to RooFit, more limited but up to 1000x faster.
+   * [probfit](https://probfit.readthedocs.io/en/latest/): A fitting tool for Python built on top of iMinuit, can be slow but supports unbinned fits.
    * [pyhf](https://diana-hep.org/pyhf/)
-   * [zfit](https://github.com/zfit/zfit)
+   * [zfit](https://github.com/zfit/zfit): A new TenserFlow fitting package under development.
    * [Gonum/optimize](https://godoc.org/gonum.org/v1/gonum/optimize): implements algorithms for finding the optimum value of functions
    * [Go-HEP/fit](https://go-hep.org/x/hep/fit): `fit` provides functions to fit data (histograms, data set), using `gonum/optimize`.
 
