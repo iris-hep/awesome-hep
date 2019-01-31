@@ -12,7 +12,7 @@ The focus of this page is on:
 
 See the [curated list of awesome lists](https://github.com/sindresorhus/awesome) for an idea of what an awesome list is all about: lists of links to projects, arranged by topic, so that users can find what they need. If you want to add anything to this list (or remove something that doesn't satisfy the criteria above), submit a [pull request](https://github.com/iris-hep/awesome-hep/pulls).
 
-{:toc}
+Links to other lists of packages are in **bold**.
 
 ## C++
 
@@ -44,7 +44,7 @@ _(FIXME: something in the Combiner/HistFactory category?)_
 
 ## Python
 
-   * [PyHEP-resources](https://github.com/hsf-training/PyHEP-resources): detailed list of Python tutorials and useful libraries in Python.
+   * **[PyHEP-resources](https://github.com/hsf-training/PyHEP-resources): detailed list of Python tutorials and useful libraries in Python.**
    * [PyROOT](https://root.cern.ch/pyroot): built into ROOT; access to 100% of ROOT functions in Python.
    * [rootpy](http://www.rootpy.org/): _Pythonic_ interface to PyROOT.
 
@@ -109,7 +109,7 @@ _(FIXME: there's a lot of these...)_
 
 ### Machine learning
 
-   * [awesome machine learning](https://github.com/josephmisiti/awesome-machine-learning)
+   * **[awesome machine learning](https://github.com/josephmisiti/awesome-machine-learning)**
 
 ## Go
 
