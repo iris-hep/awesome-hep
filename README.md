@@ -142,6 +142,7 @@ _(FIXME: there's a lot of these...)_
    * [Go-HEP/hplot](https://go-hep.org/x/hep/hplot): a plotting package built on top of [Gonum/plot](https://github.com/gonum/plot) to provide HEP-oriented primitives
    * [Go-HEP/pawgo](https://go-hep.org/x/hep/pawgo): a simple interactive shell to quickly plot hbook histograms from Go
    * [Go-HEP/groot/root-srv](https://go-hep.org/x/hep/groot/cmd/root-srv): a (local) web server able to plot TH{1,2}x, TGraphs and TTrees from a ROOT file
+   * [Gophernotes](https://github.com/gopherdata/gophernotes): a Go kernel for the Jupyter notebooks and nteract
 
 ### Fitting
 
