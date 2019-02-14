@@ -157,7 +157,7 @@ _(FIXME: there's a lot of these...)_
 
 ## Publishing
 
-   * LaTeX (what link would be help users get started?)
+   * [Overleaf](https://www.overleaf.com/): write collaboratively on your web browser with a built-in LaTeX editor; many templates are available for beginners
 
 ## Reproducibility, reinterpretation
 
