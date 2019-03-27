@@ -110,6 +110,10 @@ _(FIXME: there's a lot of these...)_
 ### Machine learning
 
    * **[awesome machine learning](https://github.com/josephmisiti/awesome-machine-learning)**
+   
+### Error propagation
+
+   * [uncertainties](https://uncertainties-python-package.readthedocs.io/en/latest/)
 
 ## Go
 
