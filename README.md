@@ -29,14 +29,22 @@ Links to other lists of packages are in **bold**.
 
 ### Fitting
 
-   * [RooFit](http://roofit.sourceforge.net): The classic, powerful symbolic fitting library built into ROOT (and therefore PyROOT).
+   * [RooFit](http://roofit.sourceforge.net): The classic, powerful statistical modelling language and fitting library built into ROOT (and therefore PyROOT). Provides the workspace to serialize models, which is widely used in combinations. [RooFit Tutorials](https://root.cern/doc/master/group__tutorial__roofit.html) [Quick Start](https://root.cern.ch/download/doc/roofit_quickstart_3.00.pdf) [Manual](https://root.cern.ch/download/doc/RooFit_Users_Manual_2.91-33.pdf)
+   * [RooStats](https://twiki.cern.ch/twiki/bin/view/RooStats/WebHome) [RooStats tutorials](https://root.cern/doc/master/group__tutorial__roostats.html) Statistical tools built on top of RooFit's statistical modelling language. Provides statistical procedures used for Higgs discovery. Ships with ROOT.
+   * [HistFactory](https://twiki.cern.ch/twiki/bin/view/RooStats/HistFactory): A C++ implementation (built on top of RooFit) of the statistical models for binned distributions based on template histograms described in [CERN-OPEN-2012-016](https://cdsweb.cern.ch/record/1456844). Also ships with ROOT.
+   * [HistFitter](http://histfitter.web.cern.ch/histfitter/) a tool that integrates HistFactory, RooStats, and RooFit for common analysis use cases.
+   * [Combine](https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/): Combine provides a command line interface to many different statistical techniques available inside RooFit/RooStats used widely inside CMS. [Tutorial](http://twiki.ihep.ac.cn/twiki/view/CMS/CombineTutorial)
    * [GooFit](https://github.com/GooFit/GooFit): A OpenMP/CUDA binned and unbinned fitting package for C++ and Python, similar to RooFit, more limited but up to 1000x faster.
-
-_(FIXME: something in the Combiner/HistFactory category?)_
+   
 
 ### Reproducibility, reinterpretation
 
    * [Rivet](https://rivet.hepforge.org)
+   * [RECAST](http://recast.perimeterinstitute.ca) - [talk](https://indico.cern.ch/event/639314/contributions/2726367/attachments/1542484/2419628/ReinterpretationWorkshopFNAL.pdf)
+   * [MadAnalysis](https://madanalysis.irmp.ucl.ac.be)
+   * [CheckMate](http://checkmate.hepforge.org/)
+   * [Contour](https://contur.hepforge.org)
+   * [Workshops](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/InterpretingLHCresults) | [Overview of tools](https://twiki.cern.ch/twiki/bin/view/LHCPhysics/RecastingTools)
 
 ### C++/Python interoperability
 
@@ -52,6 +60,7 @@ _(FIXME: something in the Combiner/HistFactory category?)_
 
    * [particle](https://github.com/scikit-hep/particle): particle data, such as masses and PDG properties
    * [decaylanguage](https://github.com/scikit-hep/decaylanguage)
+   * [MadMiner](https://github.com/johannbrehmer/madminer): Likelihood fits to high-dimensional observables (multi-differential distributions) using Machine-learning techniques.
 
 ### Data access
 
@@ -69,6 +78,8 @@ _(FIXME: something in the Combiner/HistFactory category?)_
    * [Dask](http://dask.pydata.org)
    * [yadage](https://github.com/yadage/yadage)
    * [PySpark](https://spark.apache.org/docs/latest/)
+   * [REANA](http://reanahub.io/)
+
 
 ### Event generation
 
@@ -95,22 +106,33 @@ _(FIXME: something in the Combiner/HistFactory category?)_
    
 ### Minimization
 
+   * [scipy.optimize](https://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html)
    * [iminuit](https://iminuit.readthedocs.io/en/latest/): A Cython powered wrapper around Minuit extracted from ROOT.
 
-### Fitting
+### Statistics and Fitting
 
+   * [pyhf](https://diana-hep.org/pyhf/): implements HistFactory schema supports numpy, TensorFlow, pytorch, MXNet backends
    * [probfit](https://probfit.readthedocs.io/en/latest/): A fitting tool for Python built on top of iMinuit, can be slow but supports unbinned fits.
-   * [pyhf](https://diana-hep.org/pyhf/)
-   * [zfit](https://github.com/zfit/zfit): A new TenserFlow fitting package under development.
-
-### Statistics
-
-_(FIXME: there's a lot of these...)_
+   * [zfit](https://github.com/zfit/zfit): A new TensorFlow fitting package under development.
+   * [TensorFlow Probability](https://www.tensorflow.org/probability/)
 
 ### Machine learning
 
+   * [HEPML Resources](https://github.com/iml-wg/HEP-ML-Resources/blob/master/README.md#papers): a curated list
    * **[awesome machine learning](https://github.com/josephmisiti/awesome-machine-learning)**
+   * [JAX](https://github.com/google/jax) JAX is Autograd and XLA, brought together for high-performance machine learning research.
    
+### Gaussian Processes
+   * [GPy](https://github.com/SheffieldML/GPy)
+   * [GPFlow](https://github.com/GPflow/GPflow)
+   * [GPyTorch](https://gpytorch.ai)
+   
+### Blackbox Optimization / Bayesian Optimization / Hyperparameter Optimization
+   * [Scikit-Optimize](https://scikit-optimize.github.io)
+   * [Spearmint](https://github.com/HIPS/Spearmint)
+   * [GPyOpt](https://github.com/SheffieldML/GPyOpt)
+   * [A review](https://medium.com/@mikkokotila/a-comprehensive-list-of-hyperparameter-optimization-tuning-solutions-88e067f19d9)
+
 ### Error propagation
 
    * [uncertainties](https://uncertainties-python-package.readthedocs.io/en/latest/)
@@ -170,6 +192,7 @@ _(FIXME: there's a lot of these...)_
 ## Data preservation
 
    * [CERN Open Data Portal](http://opendata.cern.ch/)
+   * [CERN Analysis Preservation Portal](http://analysispreservation.cern.ch)
    * [HEPData](https://www.hepdata.net/)
 
 ## Collaboration-framework specific
