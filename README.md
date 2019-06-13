@@ -121,6 +121,7 @@ Links to other lists of packages are in **bold**.
    * [HEPML Resources](https://github.com/iml-wg/HEP-ML-Resources/blob/master/README.md#papers): a curated list
    * **[awesome machine learning](https://github.com/josephmisiti/awesome-machine-learning)**
    * [JAX](https://github.com/google/jax) JAX is Autograd and XLA, brought together for high-performance machine learning research.
+   * [EnergyFlow](https://energyflow.network) - a set of tools aimed at jet physics.
    
 ### Gaussian Processes
    * [GPy](https://github.com/SheffieldML/GPy)
