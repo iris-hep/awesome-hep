@@ -64,9 +64,7 @@ Links to other lists of packages are in **bold**.
 
 ### Data access
 
-   * [uproot](https://github.com/scikit-hep/uproot)
-   * [root_numpy](http://scikit-hep.org/root_numpy/)
-   * [root_pandas](https://github.com/scikit-hep/root_pandas)
+   * [uproot](https://github.com/scikit-hep/uproot4)
    * [pyhepmc](https://pypi.org/project/pyhepmc/)
    * [pylhe](https://pypi.org/project/pylhe/)
    * [PySLHA](https://pypi.org/project/pyslha/): read, write, and plot SUSY Les Houches Accord (SLHA) supersymmetric spectrum/decay files
@@ -80,7 +78,6 @@ Links to other lists of packages are in **bold**.
    * [PySpark](https://spark.apache.org/docs/latest/)
    * [REANA](http://reanahub.io/)
 
-
 ### Event generation
 
    * [numpythia](https://github.com/scikit-hep/numpythia)
@@ -88,7 +85,7 @@ Links to other lists of packages are in **bold**.
 
 ### Data processing
 
-   * [awkward-array](https://github.com/scikit-hep/awkward-array)
+   * [awkward-array](https://github.com/scikit-hep/awkward-1.0)
    * [formulate](https://github.com/scikit-hep/formulate): translate TTree::Draw syntax to NumExpr
 
 ### Data bookkeeping
