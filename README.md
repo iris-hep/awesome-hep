@@ -91,7 +91,7 @@ Links to other lists of packages are in **bold**.
 
 ### Data processing
 
-   * [Awkward Array](https://github.com/scikit-hep/awkward-1.0): Manipulate JSON-like data with NumPy-like idioms.
+   * [Awkward Array](https://awkward-array.org): Manipulate JSON-like data with NumPy-like idioms.
    * [formulate](https://github.com/scikit-hep/formulate): translate TTree::Draw syntax to NumExpr
    * [numba](https://numba.pydata.org): Convert pure Python functions to LLVM bytecode, for speed and easy loop acceleration. Supported by many Scikit-HEP projects, like Awkward and Vector.
 
