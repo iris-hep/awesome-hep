@@ -60,7 +60,7 @@ Links to other lists of packages are in **bold**.
 
    * [particle](https://github.com/scikit-hep/particle): particle data, such as masses and PDG properties
    * [decaylanguage](https://github.com/scikit-hep/decaylanguage)
-   * [MadMiner](https://github.com/johannbrehmer/madminer): Likelihood fits to high-dimensional observables (multi-differential distributions) using Machine-learning techniques.
+   * [MadMiner](https://github.com/diana-hep/madminer): Likelihood fits to high-dimensional observables (multi-differential distributions) using Machine-learning techniques.
 
 ### Data access
 
