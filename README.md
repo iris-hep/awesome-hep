@@ -24,7 +24,7 @@ Links to other lists of packages are in **bold**.
 
 ### Aggregation/histogram filling
 
-   * [Boost.Histogram](https://github.com/HDembinski/histogram)
+   * [Boost.Histogram](https://github.com/boostorg/histogram)
    * [YODA](https://yoda.hepforge.org/)
 
 ### Fitting
@@ -40,7 +40,7 @@ Links to other lists of packages are in **bold**.
 ### Reproducibility, reinterpretation
 
    * [Rivet](https://rivet.hepforge.org)
-   * [RECAST](https://recast-docs.web.cern.ch) - [talk](https://indico.cern.ch/event/639314/contributions/2726367/attachments/1542484/2419628/ReinterpretationWorkshopFNAL.pdf)
+   * [RECAST](http://recast.perimeterinstitute.ca) - [talk](https://indico.cern.ch/event/639314/contributions/2726367/attachments/1542484/2419628/ReinterpretationWorkshopFNAL.pdf)
    * [MadAnalysis](https://madanalysis.irmp.ucl.ac.be)
    * [CheckMate](http://checkmate.hepforge.org/)
    * [Contour](https://contur.hepforge.org)
@@ -48,28 +48,29 @@ Links to other lists of packages are in **bold**.
 
 ### C++/Python interoperability
 
-   * [pybind11](https://pybind11.readthedocs.io/en/stable/)
+   * [pybind11](https://pybind11.readthedocs.io/en/stable/): Header-only, pure C++ bindings for CPython and PyPy.
 
 ## Python
 
    * **[PyHEP-resources](https://github.com/hsf-training/PyHEP-resources): detailed list of Python tutorials and useful libraries in Python.**
-   * [PyROOT](https://root.cern.ch/pyroot): built into ROOT; access to 100% of ROOT functions in Python.
-   * [rootpy](http://www.rootpy.org/): _Pythonic_ interface to PyROOT.
+   * [PyROOT](https://root.cern.ch/pyroot): Built into ROOT; access to 100% of ROOT functions in Python. Newer versions are becoming more Pythonic.
+   * [rootpy](http://www.rootpy.org/): _Pythonic_ interface to PyROOT, deprecated.
 
 ### Pure physics
 
-   * [particle](https://github.com/scikit-hep/particle): particle data, such as masses and PDG properties
-   * [decaylanguage](https://github.com/scikit-hep/decaylanguage)
-   * [MadMiner](https://github.com/diana-hep/madminer): Likelihood fits to high-dimensional observables (multi-differential distributions) using Machine-learning techniques.
+   * [particle](https://github.com/scikit-hep/particle): Easy access to particle data, such as masses and PDG properties.
+   * [decaylanguage](https://github.com/scikit-hep/decaylanguage): Read and process or check `.dec` files and also convert AmpGen syntax to GooFit (extendable).
+   * [MadMiner](https://github.com/johannbrehmer/madminer): Likelihood fits to high-dimensional observables (multi-differential distributions) using Machine-learning techniques.
+   * [Vector](https://github.com/scikit-hep/vector): 2D vector, 3D vector, and LorentzVectors, supporting multiple backends, including NumPy, Numba, Awkward, and Numba + Awkward.
 
 ### Data access
 
-   * [uproot](https://github.com/scikit-hep/uproot)
-   * [root_numpy](http://scikit-hep.org/root_numpy/)
-   * [root_pandas](https://github.com/scikit-hep/root_pandas)
+   * [uproot](https://uproot.readthedocs.io/en/latest/): Read ROOT files in Pure Python
+   * [root_numpy](http://scikit-hep.org/root_numpy/): The original array-friendly PyROOT adaptor. Replaced by newer versions of PyROOT and uproot.
+   * [root_pandas](https://github.com/scikit-hep/root_pandas): The original pandas PyROOT adaptor. Replaced by newer versions of PyROOT and uproot.
    * [pyhepmc](https://pypi.org/project/pyhepmc/)
    * [pylhe](https://pypi.org/project/pylhe/)
-   * [PySLHA](https://pypi.org/project/pyslha/): read, write, and plot SUSY Les Houches Accord (SLHA) supersymmetric spectrum/decay files
+   * [PySLHA](https://pypi.org/project/pyslha/): Read, write, and plot SUSY Les Houches Accord (SLHA) supersymmetric spectrum/decay files.
 
 ### Distributed processing
 
@@ -80,34 +81,42 @@ Links to other lists of packages are in **bold**.
    * [PySpark](https://spark.apache.org/docs/latest/)
    * [REANA](http://reanahub.io/)
 
+### Aggregation/histogram filling
+
+   * [Hist](https://github.com/scikit-hep/hist): Powerful histogramming package, extends boost-histogram with analysis shortcuts and plotting.
+   * [boost-histogram](https://github.com/scikit-hep/boost-histogram): Pybind11 powered interface to Boost.Histogram, intended as a basis for other tools.
 
 ### Event generation
 
    * [numpythia](https://github.com/scikit-hep/numpythia)
-   * [pyjet](https://github.com/scikit-hep/pyjet)
+   * [fastjet](https://github.com/scikit-hep/fastjet) (replaces [pyjet](https://github.com/scikit-hep/pyjet))
 
 ### Data processing
 
-   * [awkward-array](https://github.com/scikit-hep/awkward-array)
+   * [awkward-array](https://awkward-array.org): Support "Jagged" arrays (like TTree's) easily in Python. Also supports Numba.
    * [formulate](https://github.com/scikit-hep/formulate): translate TTree::Draw syntax to NumExpr
+   * [numba](https://numba.pydata.org): Convert pure Python functions to LLVM bytecode, for speed and easy loop acceleration. Supported by many Scikit-HEP projects, like Awkward and Vector.
 
 ### Data bookkeeping
 
-   * [Pandas](https://pandas.pydata.org/)
+   * [Pandas](https://pandas.pydata.org/): General purpose tabular (1D and 2D labeled mostly) data.
+   * [xarray](https://xarray.pydata.org): General purpose ND labeled rectangular data.
 
 ### Plotting (exploratory and publication)
 
-   * [Matplotlib](https://matplotlib.org/)
-   * [seaborn](https://seaborn.pydata.org/)
+   * [Matplotlib](https://matplotlib.org/) (MPL): General purpose plotting library for Python.
+   * [seaborn](https://seaborn.pydata.org/): General purpose statistics plotting adaptor for MPL.
+   * [mplhep](https://github.com/scikit-hep/mplhep): Adaptor for common HEP needs and experiment styles for MPL.
 
 ### Other visualization
 
    * [mcviz](https://github.com/mcviz/mcviz)
+   * [histoprint](https://github.com/scikit-hep/histoprint): Plotting histograms inside the terminal.
    
 ### Minimization
 
-   * [scipy.optimize](https://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html)
-   * [iminuit](https://iminuit.readthedocs.io/en/latest/): A Cython powered wrapper around Minuit extracted from ROOT.
+   * [scipy.optimize](https://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html): General purpose optimization.
+   * [iminuit](https://iminuit.readthedocs.io/en/latest/): A pybind11 powered wrapper around Minuit2 extracted from ROOT.
 
 ### Statistics and Fitting
 
@@ -118,10 +127,10 @@ Links to other lists of packages are in **bold**.
 
 ### Machine learning
 
-   * [HEPML Resources](https://github.com/iml-wg/HEP-ML-Resources/blob/master/README.md#papers): a curated list
+   * [HEPML Resources](https://github.com/iml-wg/HEP-ML-Resources/blob/master/README.md#papers): a general purpose curated list
    * **[awesome machine learning](https://github.com/josephmisiti/awesome-machine-learning)**
-   * [JAX](https://github.com/google/jax) JAX is Autograd and XLA, brought together for high-performance machine learning research.
-   * [EnergyFlow](https://energyflow.network) - a set of tools aimed at jet physics.
+   * [JAX](https://github.com/google/jax): General purpose JAX is Autograd and XLA, brought together for high-performance machine learning research.
+   * [EnergyFlow](https://energyflow.network): a set of tools aimed at jet physics.
    
 ### Gaussian Processes
    * [GPy](https://github.com/SheffieldML/GPy)
@@ -136,7 +145,7 @@ Links to other lists of packages are in **bold**.
 
 ### Error propagation
 
-   * [uncertainties](https://uncertainties-python-package.readthedocs.io/en/latest/)
+   * [uncertainties](https://uncertainties-python-package.readthedocs.io/en/latest/): General purpose uncertainty propogation.
 
 ## Go
 
