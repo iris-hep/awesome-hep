@@ -65,9 +65,7 @@ Links to other lists of packages are in **bold**.
 
 ### Data access
 
-   * [uproot](https://uproot.readthedocs.io/en/latest/): Read ROOT files in Pure Python
-   * [root_numpy](http://scikit-hep.org/root_numpy/): The original array-friendly PyROOT adaptor. Replaced by newer versions of PyROOT and uproot.
-   * [root_pandas](https://github.com/scikit-hep/root_pandas): The original pandas PyROOT adaptor. Replaced by newer versions of PyROOT and uproot.
+   * [uproot](https://uproot.readthedocs.io/): Read ROOT files in Pure Python
    * [pyhepmc](https://pypi.org/project/pyhepmc/)
    * [pylhe](https://pypi.org/project/pylhe/)
    * [PySLHA](https://pypi.org/project/pyslha/): Read, write, and plot SUSY Les Houches Accord (SLHA) supersymmetric spectrum/decay files.
@@ -93,7 +91,7 @@ Links to other lists of packages are in **bold**.
 
 ### Data processing
 
-   * [awkward-array](https://awkward-array.org): Support "Jagged" arrays (like TTree's) easily in Python. Also supports Numba.
+   * [Awkward Array](https://github.com/scikit-hep/awkward-1.0): Manipulate JSON-like data with NumPy-like idioms.
    * [formulate](https://github.com/scikit-hep/formulate): translate TTree::Draw syntax to NumExpr
    * [numba](https://numba.pydata.org): Convert pure Python functions to LLVM bytecode, for speed and easy loop acceleration. Supported by many Scikit-HEP projects, like Awkward and Vector.
 
