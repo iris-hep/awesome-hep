@@ -40,7 +40,7 @@ Links to other lists of packages are in **bold**.
 ### Reproducibility, reinterpretation
 
    * [Rivet](https://rivet.hepforge.org)
-   * [RECAST](http://recast.perimeterinstitute.ca) - [talk](https://indico.cern.ch/event/639314/contributions/2726367/attachments/1542484/2419628/ReinterpretationWorkshopFNAL.pdf)
+   * [RECAST](https://recast-docs.web.cern.ch) - [talk](https://indico.cern.ch/event/639314/contributions/2726367/attachments/1542484/2419628/ReinterpretationWorkshopFNAL.pdf)
    * [MadAnalysis](https://madanalysis.irmp.ucl.ac.be)
    * [CheckMate](http://checkmate.hepforge.org/)
    * [Contour](https://contur.hepforge.org)
